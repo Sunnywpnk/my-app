@@ -99,7 +99,7 @@ export default function Product() {
                 Product Name: <input type="text" name="product_name" ref={myInputRef1}/>
                 Price: <input type="text" name="product_price" ref={myInputRef2}/>
                 img: <input type="text" name="product_img" ref={myInputRef3}/>
-                <button onClick={onAddProduct} style={{borderRadius : 40}}>Add </button>
+                <button onClick={onAddProduct} >Add </button>
             </div>
             <div style={{ margin: '50px', display: 'grid', justifyContent: 'center' }}>
                 <h1 style={{ textAlign: 'center' }}>Update Products </h1>
